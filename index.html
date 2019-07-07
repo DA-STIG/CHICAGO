@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a href="#" class="navbar-brand">
+            <span class="fa fa-picture-o"></span>
+            IMGS</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navigation">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a href="http://theartofphotography.tv/episodes/" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="signup.html" class="nav-link">Sign Up</a>
+                </li>
+                <li class="nav-item">
+                    <a href="login.html" class="nav-link">Log In</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- JUMBOTRON -->
+<div class="container">
+    <div class="jumbotron">
+        <h1><i class="fa fa-camera-retro" aria-hidden="true"></i> The Image Gallery</h1>
+        <p>Image Gallery for the Art of Photography</p>
+    </div>
+</div>
+
+<!-- GRID (Thumbnail Version) -->
+<!-- mb-3 stands for margin bottom 3px -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4 col-sm-6">
+            <img class="img-thumbnail mb-3" src="https://images.unsplash.com/photo-1562337589-136d8a7dd9dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60">
+        </div>
+        <div class="col-lg-4 col-sm-6">
+            <img class="img-thumbnail mb-3" src="https://images.unsplash.com/photo-1562299694-47dbd2d69da3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60">
+        </div>
+        <div class="col-lg-4 col-sm-6">
+            <img class="img-thumbnail mb-3"
+                 src="https://images.unsplash.com/photo-1562302285-4bcf77ec6232?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60">
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+            <img class="img-thumbnail mb-3"
+                 src="https://images.unsplash.com/photo-1562388890-eee07dca0370?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60">
+        </div>
+        <div class="col-lg-4 col-sm-6">
+            <img class="img-thumbnail mb-3"
+                 src="https://images.unsplash.com/photo-1562259863-9d5597314053?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60">
+        </div>
+        <div class="col-lg-4 col-sm-6">
+            <img class="img-thumbnail mb-3"
+                 src="https://images.unsplash.com/photo-1562268486-04a684deced8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60">
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+            <img class="img-thumbnail mb-3" src="https://images.unsplash.com/photo-1562244716-4aec8afd45ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60">
+        </div>
+        <div class="col-lg-4 col-sm-6">
+            <img class="img-thumbnail mb-3"
+                 src="https://images.unsplash.com/photo-1562234245-ad86cabb1291?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60">
+        </div>
+        <div class="col-lg-4 col-sm-6">
+            <img class="img-thumbnail mb-3"
+                 src="https://images.unsplash.com/photo-1558981001-5864b3250a69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60">
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+</html>
